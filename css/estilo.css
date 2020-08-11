@@ -1,0 +1,37 @@
+body{
+  margin-left:450px;
+  margin-right:450px;
+  padding: 0;
+  border: 3px solid #ccc;
+  text-align: center;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 10px 10px 10px #666666 ;
+}
+
+input{
+  margin-bottom: 20px;
+  width: 90%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="text"]{
+  box-shadow: 8px 8px 8px #999999 ;
+}
+input[type="password"]{
+  box-shadow: 8px 8px 8px #999999 ;
+}
+
+input[type="submit"]{
+  background: #1664c4;
+  color: #fff;
+  border: none;
+}
+
+input[type="submit"]:hover{
+  background: #CCC;
+  cursor: pointer;
+}
